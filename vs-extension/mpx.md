@@ -1,3 +1,13 @@
+<!-- TOC -->
+
+- [配置mpx项目的extension](#配置mpx项目的extension)
+  - [安装插件](#安装插件)
+  - [配置vetur](#配置vetur)
+    - [修改vetur setting.json](#修改vetur-settingjson)
+    - [让stylus失效](#让stylus失效)
+  - [关于image和input不能format问题](#关于image和input不能format问题)
+
+<!-- /TOC -->
 ## 配置mpx项目的extension
 
 ### 安装插件
@@ -65,7 +75,8 @@
 ![m5](./img/m5.png)
 
 
-
+### 关于image和input不能format问题
+使用`<image />`闭合语法代替`<image></image>`对image和input闭合，可以解决formating代码是出现的error。
 
 
 
